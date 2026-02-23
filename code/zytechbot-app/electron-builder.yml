@@ -11,8 +11,11 @@ files:
   - '!{tsconfig.json,tsconfig.node.json,tsconfig.web.json}'
 asarUnpack:
   - resources/**
+  - node_modules/puppeteer/**
+  - node_modules/puppeteer-core/**
 win:
-  executableName: zytechbot-app
+  executableName: "ZytechScript"
+  icon: resources/icon.ico
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}

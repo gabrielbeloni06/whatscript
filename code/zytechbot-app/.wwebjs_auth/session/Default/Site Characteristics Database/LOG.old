@@ -1,2 +1,3 @@
-2026/02/23-18:57:42.372 1f4b8 Creating DB C:\Repo\whatscript\code\zytechbot-app\.wwebjs_auth\session\Default\Site Characteristics Database since it was missing.
-2026/02/23-18:57:42.384 1f4b8 Reusing MANIFEST C:\Repo\whatscript\code\zytechbot-app\.wwebjs_auth\session\Default\Site Characteristics Database/MANIFEST-000001
+2026/02/23-19:01:26.249 20730 Reusing MANIFEST C:\Repo\whatscript\code\zytechbot-app\.wwebjs_auth\session\Default\Site Characteristics Database/MANIFEST-000001
+2026/02/23-19:01:26.249 20730 Recovering log #3
+2026/02/23-19:01:26.250 20730 Reusing old log C:\Repo\whatscript\code\zytechbot-app\.wwebjs_auth\session\Default\Site Characteristics Database/000003.log 

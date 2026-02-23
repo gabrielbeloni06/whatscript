@@ -3,7 +3,7 @@ import { join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
 import { Client, LocalAuth } from 'whatsapp-web.js'
 import qrcode from 'qrcode'
-import icon from '../../resources/icon.png?asset'
+import icon from '../../resources/icon.ico?asset'
 
 function createWindow(): BrowserWindow {
   const mainWindow = new BrowserWindow({
@@ -66,7 +66,7 @@ app.whenReady().then(() => {
 
   waClient.initialize()
 
-  ipcMain.on('start-sending', async (event, { numbers, message }) => {
+  ipcMain.on('start-sending', async (_, { numbers, message }) => {
     mainWindow.webContents.send('wa-status', 'Iniciando disparos...')
 
     for (let i = 0; i < numbers.length; i++) {

@@ -1,2 +1,3 @@
-2026/02/23-18:57:42.398 1ffe0 Creating DB C:\Repo\whatscript\code\zytechbot-app\.wwebjs_auth\session\Default\shared_proto_db\metadata since it was missing.
-2026/02/23-18:57:42.405 1ffe0 Reusing MANIFEST C:\Repo\whatscript\code\zytechbot-app\.wwebjs_auth\session\Default\shared_proto_db\metadata/MANIFEST-000001
+2026/02/23-19:01:26.337 1fcac Reusing MANIFEST C:\Repo\whatscript\code\zytechbot-app\.wwebjs_auth\session\Default\shared_proto_db\metadata/MANIFEST-000001
+2026/02/23-19:01:26.338 1fcac Recovering log #3
+2026/02/23-19:01:26.338 1fcac Reusing old log C:\Repo\whatscript\code\zytechbot-app\.wwebjs_auth\session\Default\shared_proto_db\metadata/000003.log 
